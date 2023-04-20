@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/721tools/backend-go/indexer/internal/bus"
+	"github.com/721tools/backend-go/indexer/implement/bus"
 	"github.com/721tools/backend-go/indexer/pkg/utils/quit"
 
 	"github.com/721tools/backend-go/indexer/pkg/blockchain/client"

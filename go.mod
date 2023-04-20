@@ -4,7 +4,9 @@ go 1.20
 
 require (
 	github.com/ethereum/go-ethereum v1.10.20
+	github.com/ghodss/yaml v1.0.0
 	github.com/gin-gonic/gin v1.7.7
+	github.com/go-redis/redis/v9 v9.0.0-beta.2
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.10.0
@@ -12,6 +14,7 @@ require (
 	github.com/oh-go/goose v2.1.1+incompatible
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/silenceper/pool v1.0.0
+	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.11.0
 	github.com/stretchr/testify v1.7.2
 	github.com/uber/jaeger-client-go v2.30.0+incompatible
@@ -19,6 +22,8 @@ require (
 	google.golang.org/genproto v0.0.0-20220407144326-9054f6ed7bac
 	google.golang.org/grpc v1.45.0
 	google.golang.org/protobuf v1.28.0
+	k8s.io/apimachinery v0.24.3
+	xorm.io/xorm v1.3.1
 )
 
 require github.com/jpillora/backoff v1.0.0 // indirect
@@ -35,14 +40,12 @@ require (
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
-	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-logr/logr v1.2.0 // indirect
 	github.com/go-ole/go-ole v1.2.1 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
 	github.com/go-playground/validator/v10 v10.4.1 // indirect
-	github.com/go-redis/redis/v9 v9.0.0-beta.2 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/goccy/go-json v0.8.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
@@ -77,7 +80,6 @@ require (
 	github.com/spf13/cast v1.4.1 // indirect
 	github.com/spf13/cobra v1.5.0 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20220614013038-64ee5596c38a // indirect
@@ -97,11 +99,9 @@ require (
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/apimachinery v0.24.3 // indirect
 	k8s.io/klog/v2 v2.60.1 // indirect
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9 // indirect
 	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 	xorm.io/builder v0.3.12 // indirect
-	xorm.io/xorm v1.3.1 // indirect
 )
