@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/721tools/backend-go/index/internal/service"
+	"github.com/721tools/backend-go/indexer/internal/service"
 	"github.com/osamingo/jsonrpc/v2"
 )
 

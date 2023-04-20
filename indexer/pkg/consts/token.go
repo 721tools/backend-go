@@ -1,6 +1,6 @@
 package consts
 
-import "github.com/721tools/backend-go/index/pkg/utils/hex"
+import "github.com/721tools/backend-go/indexer/pkg/utils/hex"
 
 var (
 	NativeToken            = hex.HexstrToHex("0x0000000000000000000000000000000000000000")

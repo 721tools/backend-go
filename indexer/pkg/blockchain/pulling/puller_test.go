@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	client2 "github.com/721tools/backend-go/index/pkg/blockchain/client"
+	client2 "github.com/721tools/backend-go/indexer/pkg/blockchain/client"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,9 +3,9 @@ package model
 import (
 	"time"
 
-	"github.com/721tools/backend-go/index/pkg/blockchain/model"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/model"
 
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
 )
 
 type OriginTx struct {

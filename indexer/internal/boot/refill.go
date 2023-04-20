@@ -4,12 +4,12 @@ import (
 	"context"
 	"errors"
 
-	"github.com/721tools/backend-go/index/internal/service"
-	"github.com/721tools/backend-go/index/pkg/blockchain/client"
-	"github.com/721tools/backend-go/index/pkg/blockchain/pulling"
-	"github.com/721tools/backend-go/index/pkg/types/v1beta1"
-	"github.com/721tools/backend-go/index/pkg/utils/files"
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
+	"github.com/721tools/backend-go/indexer/internal/service"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/client"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/pulling"
+	"github.com/721tools/backend-go/indexer/pkg/types/v1beta1"
+	"github.com/721tools/backend-go/indexer/pkg/utils/files"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
 )
 
 func Refill(fileIO files.FileIO) (err error) {

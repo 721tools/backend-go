@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/721tools/backend-go/index/pkg/consts"
-	"github.com/721tools/backend-go/index/pkg/mq"
+	"github.com/721tools/backend-go/indexer/pkg/consts"
+	"github.com/721tools/backend-go/indexer/pkg/mq"
 	"github.com/721tools/stream-api-go/sdk"
 )
 

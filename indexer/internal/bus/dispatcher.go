@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/721tools/backend-go/index/internal/bus/block_listener"
+	"github.com/721tools/backend-go/indexer/internal/bus/block_listener"
 )
 
 var blockRawDataRegisters []block_listener.Listener

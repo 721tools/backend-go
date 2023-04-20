@@ -1,6 +1,6 @@
 package model
 
-import "github.com/721tools/backend-go/index/pkg/utils/hex"
+import "github.com/721tools/backend-go/indexer/pkg/utils/hex"
 
 // OriginInTxLog deprecate
 type OriginInTxLog struct {

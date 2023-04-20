@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/721tools/backend-go/index/internal/service"
-	"github.com/721tools/backend-go/index/pkg/blockchain/client"
-	"github.com/721tools/backend-go/index/pkg/db"
+	"github.com/721tools/backend-go/indexer/internal/service"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/client"
+	"github.com/721tools/backend-go/indexer/pkg/db"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/stretchr/testify/assert"
 )

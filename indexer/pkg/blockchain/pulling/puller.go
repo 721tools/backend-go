@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/721tools/backend-go/index/internal/bus"
-	"github.com/721tools/backend-go/index/pkg/utils/quit"
+	"github.com/721tools/backend-go/indexer/internal/bus"
+	"github.com/721tools/backend-go/indexer/pkg/utils/quit"
 
-	"github.com/721tools/backend-go/index/pkg/blockchain/client"
-	"github.com/721tools/backend-go/index/pkg/blockchain/model"
-	"github.com/721tools/backend-go/index/pkg/utils/log16"
-	"github.com/721tools/backend-go/index/pkg/utils/retry"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/client"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/model"
+	"github.com/721tools/backend-go/indexer/pkg/utils/log16"
+	"github.com/721tools/backend-go/indexer/pkg/utils/retry"
 	"github.com/ethereum/go-ethereum/common/math"
 )
 

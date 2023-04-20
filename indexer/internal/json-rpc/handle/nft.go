@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/721tools/backend-go/index/internal/hotness"
+	"github.com/721tools/backend-go/indexer/internal/hotness"
 	"github.com/osamingo/jsonrpc/v2"
 )
 

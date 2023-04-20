@@ -3,7 +3,7 @@ package block_listener
 import (
 	"time"
 
-	model2 "github.com/721tools/backend-go/index/internal/model"
+	model2 "github.com/721tools/backend-go/indexer/internal/model"
 )
 
 type chunkSize = int64

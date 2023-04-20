@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/721tools/backend-go/index/pkg/db"
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
+	"github.com/721tools/backend-go/indexer/pkg/db"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
 	"xorm.io/xorm"
 )
 

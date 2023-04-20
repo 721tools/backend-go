@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/721tools/backend-go/index/pkg/consts"
-	"github.com/721tools/backend-go/index/pkg/mq"
-	"github.com/721tools/backend-go/index/pkg/utils/log16"
-	"github.com/721tools/backend-go/index/pkg/utils/quit"
-	"github.com/721tools/backend-go/index/pkg/utils/timedset"
+	"github.com/721tools/backend-go/indexer/pkg/consts"
+	"github.com/721tools/backend-go/indexer/pkg/mq"
+	"github.com/721tools/backend-go/indexer/pkg/utils/log16"
+	"github.com/721tools/backend-go/indexer/pkg/utils/quit"
+	"github.com/721tools/backend-go/indexer/pkg/utils/timedset"
 )
 
 var (

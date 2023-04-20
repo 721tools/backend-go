@@ -4,12 +4,12 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/721tools/backend-go/index/internal/service"
-	"github.com/721tools/backend-go/index/pkg/blockchain/client"
-	"github.com/721tools/backend-go/index/pkg/blockchain/model"
-	"github.com/721tools/backend-go/index/pkg/consts"
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
-	"github.com/721tools/backend-go/index/pkg/utils/log16"
+	"github.com/721tools/backend-go/indexer/internal/service"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/client"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/model"
+	"github.com/721tools/backend-go/indexer/pkg/consts"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
+	"github.com/721tools/backend-go/indexer/pkg/utils/log16"
 	"github.com/osamingo/jsonrpc/v2"
 )
 

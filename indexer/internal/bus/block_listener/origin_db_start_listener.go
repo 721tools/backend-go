@@ -1,8 +1,8 @@
 package block_listener
 
 import (
-	db2 "github.com/721tools/backend-go/index/pkg/db"
-	"github.com/721tools/backend-go/index/pkg/utils/log16"
+	db2 "github.com/721tools/backend-go/indexer/pkg/db"
+	"github.com/721tools/backend-go/indexer/pkg/utils/log16"
 )
 
 var log = log16.NewLogger("module", "block_listener")

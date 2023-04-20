@@ -3,7 +3,7 @@ package migrate
 import (
 	"database/sql"
 
-	_ "github.com/721tools/backend-go/index/migration"
+	_ "github.com/721tools/backend-go/indexer/migration"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/oh-go/goose"
 )

@@ -3,7 +3,7 @@ package alg
 import (
 	"testing"
 
-	"github.com/721tools/backend-go/index/pkg/utils/alg"
+	"github.com/721tools/backend-go/indexer/pkg/utils/alg"
 	"github.com/stretchr/testify/assert"
 )
 

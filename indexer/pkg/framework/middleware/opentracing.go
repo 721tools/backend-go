@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/721tools/backend-go/index/pkg/framework/third_party"
+	"github.com/721tools/backend-go/indexer/pkg/framework/third_party"
 	"github.com/gin-gonic/gin"
 	"github.com/inconshreveable/log15"
 	"github.com/opentracing/opentracing-go"

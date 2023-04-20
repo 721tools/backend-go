@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"math/big"
 
-	model2 "github.com/721tools/backend-go/index/internal/model"
-	"github.com/721tools/backend-go/index/pkg/blockchain/abi_parse"
-	"github.com/721tools/backend-go/index/pkg/consts"
-	"github.com/721tools/backend-go/index/pkg/db"
-	"github.com/721tools/backend-go/index/pkg/mq"
+	model2 "github.com/721tools/backend-go/indexer/internal/model"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/abi_parse"
+	"github.com/721tools/backend-go/indexer/pkg/consts"
+	"github.com/721tools/backend-go/indexer/pkg/db"
+	"github.com/721tools/backend-go/indexer/pkg/mq"
 	"xorm.io/xorm"
 )
 

@@ -3,8 +3,8 @@ package model
 import (
 	"encoding/json"
 
-	"github.com/721tools/backend-go/index/pkg/blockchain/abi_parse"
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/abi_parse"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
 )
 
 type OriginReceiptLog struct {

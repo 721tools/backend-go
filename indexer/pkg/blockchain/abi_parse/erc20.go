@@ -1,8 +1,8 @@
 package abi_parse
 
 import (
-	"github.com/721tools/backend-go/index/pkg/blockchain/alg"
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/alg"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
 )
 
 type ERC20 struct {

@@ -3,8 +3,8 @@ package json_rpc
 import (
 	"context"
 
-	"github.com/721tools/backend-go/index/internal/json-rpc/handle"
-	"github.com/721tools/backend-go/index/pkg/utils/log16"
+	"github.com/721tools/backend-go/indexer/internal/json-rpc/handle"
+	"github.com/721tools/backend-go/indexer/pkg/utils/log16"
 	"github.com/gin-gonic/gin"
 	"github.com/osamingo/jsonrpc/v2"
 )

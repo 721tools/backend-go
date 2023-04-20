@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/721tools/backend-go/index/pkg/blockchain/model"
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/model"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/stretchr/testify/assert"
 )
@@ -236,4 +236,4 @@ func TestNewEthRpcClient_GetTokenURL(t *testing.T) {
 	assert.Equal(t, "ipfs://QmWiQE65tmpYzcokCheQmng2DCM33DEhjXcPB6PanwpAZo/111", url)
 }
 
-// go test -count=1 -v -run TestEthRpcClient_BlocksByHeight  github.com/721tools/backend-go/index/pkg/blockchain/client
+// go test -count=1 -v -run TestEthRpcClient_BlocksByHeight  github.com/721tools/backend-go/indexer/pkg/blockchain/client

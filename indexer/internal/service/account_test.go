@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/721tools/backend-go/index/pkg/db"
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
+	"github.com/721tools/backend-go/indexer/pkg/db"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
 )
 
 // https://etherscan.io/tx/0x08484c11c73f8bdab01f2f172eb5dece1f7601be9da3c96c072312fe275e6e39#eventlog

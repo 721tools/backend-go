@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/721tools/backend-go/index/pkg/framework/third_party"
+	"github.com/721tools/backend-go/indexer/pkg/framework/third_party"
 	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"

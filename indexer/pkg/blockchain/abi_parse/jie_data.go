@@ -1,7 +1,7 @@
 package abi_parse
 
 import (
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
 )
 
 var registers []Parse

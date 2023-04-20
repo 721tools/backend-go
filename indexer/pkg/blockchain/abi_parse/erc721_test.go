@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/721tools/backend-go/index/pkg/blockchain/client"
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/client"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
 	"github.com/stretchr/testify/assert"
 )
 

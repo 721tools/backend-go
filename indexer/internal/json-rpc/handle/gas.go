@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/721tools/backend-go/index/internal/bus/block_listener"
-	"github.com/721tools/backend-go/index/pkg/consts"
-	"github.com/721tools/backend-go/index/pkg/mq"
+	"github.com/721tools/backend-go/indexer/internal/bus/block_listener"
+	"github.com/721tools/backend-go/indexer/pkg/consts"
+	"github.com/721tools/backend-go/indexer/pkg/mq"
 	"github.com/osamingo/jsonrpc/v2"
 )
 

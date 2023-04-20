@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/721tools/backend-go/index/internal/bus"
-	"github.com/721tools/backend-go/index/internal/service"
-	"github.com/721tools/backend-go/index/pkg/blockchain/client"
-	"github.com/721tools/backend-go/index/pkg/blockchain/pulling"
+	"github.com/721tools/backend-go/indexer/internal/bus"
+	"github.com/721tools/backend-go/indexer/internal/service"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/client"
+	"github.com/721tools/backend-go/indexer/pkg/blockchain/pulling"
 )
 
 func Temporarily(start, end uint64, cacheSize, pullStep uint8) {

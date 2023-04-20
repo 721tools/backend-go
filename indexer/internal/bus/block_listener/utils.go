@@ -1,9 +1,9 @@
 package block_listener
 
 import (
-	model2 "github.com/721tools/backend-go/index/internal/model"
-	"github.com/721tools/backend-go/index/pkg/db"
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
+	model2 "github.com/721tools/backend-go/indexer/internal/model"
+	"github.com/721tools/backend-go/indexer/pkg/db"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
 	"github.com/ethereum/go-ethereum/common/math"
 )
 

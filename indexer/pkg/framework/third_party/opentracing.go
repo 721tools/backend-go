@@ -5,7 +5,7 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 
-	//"github.com/721tools/backend-go/index/configs"
+	//"github.com/721tools/backend-go/indexer/configs"
 	"io"
 
 	"github.com/uber/jaeger-client-go"

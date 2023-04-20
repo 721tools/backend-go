@@ -1,8 +1,8 @@
 package block_listener
 
 import (
-	model2 "github.com/721tools/backend-go/index/internal/model"
-	db2 "github.com/721tools/backend-go/index/pkg/db"
+	model2 "github.com/721tools/backend-go/indexer/internal/model"
+	db2 "github.com/721tools/backend-go/indexer/pkg/db"
 )
 
 type OriginDBEndListener struct {

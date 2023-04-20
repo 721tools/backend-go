@@ -9,10 +9,10 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/721tools/backend-go/index/internal/service"
-	"github.com/721tools/backend-go/index/pkg/consts"
-	"github.com/721tools/backend-go/index/pkg/mq"
-	"github.com/721tools/backend-go/index/pkg/utils/hex"
+	"github.com/721tools/backend-go/indexer/internal/service"
+	"github.com/721tools/backend-go/indexer/pkg/consts"
+	"github.com/721tools/backend-go/indexer/pkg/mq"
+	"github.com/721tools/backend-go/indexer/pkg/utils/hex"
 )
 
 // Hub maintains the set of active clients and broadcasts messages to the
