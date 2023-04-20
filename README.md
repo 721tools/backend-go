@@ -19,4 +19,10 @@
 
 ## 编译
 
+### indexer
+
+```
+go build -o ./bin/indexer cmd/indexer/main.go
+```
+
 ## 部署

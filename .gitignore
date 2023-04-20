@@ -1,6 +1,7 @@
 # Binaries for programs and plugins
 main
 bin/*
+!bin/.gitkeep
 *.exe
 *.exe~
 *.dll
